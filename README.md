@@ -2,6 +2,9 @@ docker --version
 
 systemctl start docker
 
+docker stop <image_name>
+docker start <image_name>
+
 // to expose port add the following command along with the below command 
 //   => -p HOST_MACHINE_PORT_THAT_IS_FREE:DOCKER_IMAGE_PORT_TO_EXPOSE 
 //   => example:- docker run -t -d -p 3000:27017 --name myCustomImage debian
@@ -9,11 +12,6 @@ docker pull <os_name>
 docker run -t -d --name <image_name> <os_name>
 docker ps
 docker exec -it <image_name> /bin/sh
-
-docker stop <image_name>
-docker start <image_name>
-
-docker stats
 
 docker image
 docker image ls
