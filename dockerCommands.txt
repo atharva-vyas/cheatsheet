@@ -1,5 +1,3 @@
-
-
 docker --version
 
 systemctl start docker
