@@ -23,6 +23,10 @@ docker inspect <container_name> | grep IPAddress <br />
 <br /> 
 AFTER INSTALL:- <br />
 apt update -y <br />
+apt upgrade -y <br /> 
+apt install nano -y <br /> 
+<br />
+apt update -y <br />
 apt upgrade -y <br />
 apt-get install libgtk2.0-dev -y <br />
 apt --fix-broken install <br />
