@@ -26,6 +26,9 @@ AFTER INSTALL:-
 apt update -y
 apt upgrade -y
 apt install nano -y
+touch install.sh
+chmod +x install.sh
+nano install.sh
 
 apt update -y
 apt upgrade -y
