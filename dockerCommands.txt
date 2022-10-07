@@ -23,6 +23,7 @@ docker ps -a
 docker inspect <container_name> | grep IPAddress
 
 AFTER INSTALL:-
+cd home
 apt update -y
 apt upgrade -y
 apt install nano -y
