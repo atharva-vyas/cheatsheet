@@ -7,7 +7,7 @@ systemctl start docker
 //   => example:- docker run -t -d -p 3000:27017 --name myCustomImage debian <br />
 docker pull <os_name> <br />
 docker run -t -d --name <image_name> <os_name> <br />
-docker ps <br />
+docker ps -a<br />
 docker exec -it <image_name> /bin/sh <br />
 docker stop <image_name> <br />
 docker start <image_name> <br />
