@@ -21,12 +21,12 @@ docker rm -f <image_id> <br />
 docker ps -a <br />
 docker inspect <container_name> | grep IPAddress <br />
 <br /> 
-DOCKER COMMIT:- <br />
+<b>DOCKER COMMIT:- </b><br />
 docker commit <image_id> <docker_useraname>/<repository_name>:<version_name (like:- mk0, version1, etc.)> <br />
 docker push  <docker_useraname>/<repository_name>:<version_name> <br/>
 docker image rm --force <docker_useraname>/<repository_name> <br/>
 <br /> 
-AFTER INSTALL:- <br />
+<b>AFTER INSTALL:- </b><br />
 apt update -y <br />
 apt upgrade -y <br /> 
 <br/>
