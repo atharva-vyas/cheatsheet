@@ -45,6 +45,5 @@ npx n stable <br />
 hash -r <br />
 node --version <br />
 <br />
-when running a .sh file, add this to the top:-
-#!/bin/sh
+when running a .sh file, add this to the top:-  <b>#!/bin/sh</b>
 
