@@ -49,4 +49,5 @@ when running a .sh file, add this to the top:-  <b>#!/bin/sh</b>
 <br /><br />
 Install VS-Code Extensions for the docker image:- <br />
 &nbsp;&nbsp;&nbsp; => Hit: <b>Ctrl+Shift+P</b>  ;to open command pallete <br />
-&nbsp;&nbsp;&nbsp; => Search: <b>Remote: Install Local Extensions</b>
+&nbsp;&nbsp;&nbsp; => Search: <b>Remote: Install Local Extensions</b> <br />
+&nbsp;&nbsp;&nbsp; => Select all extensions, and click OK; Then wait for all the extesions to install
