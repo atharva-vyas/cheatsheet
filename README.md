@@ -30,11 +30,6 @@ docker image rm --force <docker_commit_image_id> <br/>
 <b>AFTER INSTALL:- </b><br />
 apt update -y <br />
 apt upgrade -y <br /> 
-<br/>
-apt install nano -y <br /> 
-touch install.sh <br />
-chmod +x install.sh <br /> 
-nano install.sh <br /> 
 <br />
 apt-get install libgtk2.0-dev -y <br />
 apt --fix-broken install <br />
