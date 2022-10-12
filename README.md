@@ -46,4 +46,7 @@ hash -r <br />
 node --version <br />
 <br />
 when running a .sh file, add this to the top:-  <b>#!/bin/sh</b>
-
+<br /><br />
+Install VS-Code Extensions for the docker image:- <br />
+&nbsp;&nbsp;&nbsp; => Hit: <b>Ctrl+Shift+P</b>  ;to open command pallete <br />
+&nbsp;&nbsp;&nbsp; => Search: <b>Remote: Install Local Extensions</b>
