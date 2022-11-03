@@ -22,7 +22,7 @@ docker ps -a <br />
 docker inspect <container_name> | grep IPAddress <br />
 <br /> 
 <b>DOCKER COMMIT:- </b><br />
-docker commit <image_id> <docker_useraname>/<repository_name>:<version_name (use:- latest)><br />
+docker commit <container_id> <docker_useraname>/<repository_name>:<version_name (use:- latest)><br />
 docker push  <docker_useraname>/<repository_name>:<version_name> <br/>
 docker images <br/>
 docker image rm --force <docker_commit_image_id> <br/>
