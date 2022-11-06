@@ -1,13 +1,15 @@
+
+
 docker --version
 
 systemctl start docker
 
-// to expose port add the following command along with the below command
-// => -p HOST_MACHINE_PORT_THAT_IS_FREE:DOCKER_IMAGE_PORT_TO_EXPOSE
-// => example:- docker run -t -d -p 3000:27017 --name myCustomImage debian
+To expose a port, run the following command along with other commands below:-
+      => -p <host_machine_port_that_is_free>:<docker_image_port_to_expose>
+      => example:- docker run -t -d -p 3000:27017 --name myCustomImage debian
 docker pull <os_name>
 docker run -t -d --name <image_name> <os_name>
-docker ps
+docker ps -a
 docker exec -it <image_name> /bin/sh
 docker stop <image_name>
 docker start <image_name>
@@ -20,20 +22,22 @@ docker rm -f <image_id>
 docker ps -a
 docker inspect <container_name> | grep IPAddress
 
-AFTER INSTALL:-
-cd home
-apt update -y
-apt upgrade -y
-apt install nano -y
-touch install.sh
-chmod +x install.sh
-nano install.sh
+DOCKER COMMIT:-
+docker commit <container_id> <docker_useraname>/<repository_name>:<version_name (use:- latest)>
+docker push <docker_useraname>/<repository_name>:<version_name>
+docker images
+docker image rm --force <docker_commit_image_id>
 
+AFTER INSTALL:-
 apt update -y
 apt upgrade -y
+
 apt-get install libgtk2.0-dev -y
 apt --fix-broken install
 apt install wget -y
+apt install fish -y
+apt install nano -y
+
 apt install nodejs -y
 apt install npm -y
 npm cache clean -f
@@ -41,5 +45,10 @@ npm install -g n
 npx n stable
 hash -r
 node --version
-apt install fish -y
-apt install nano -y
+
+when running a .sh file, add this to the top:- #!/bin/sh
+
+Install VS-Code Extensions for the docker image:-
+    => Hit: Ctrl+Shift+P ; to open command pallete
+    => Search: Remote: Install Local Extensions ; and select the first option
+    => Select all extensions, and click OK; Then wait for all the extesions to install
