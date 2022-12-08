@@ -49,6 +49,10 @@ when running a .sh file, add this to the top:-  <b>#!/bin/sh</b>
 <br /><br />
 to run commands on startup:-  <b>https://unix.stackexchange.com/a/637875</b>
 <br /><br />
+how to download files using cli:- <b>wget -O [file name with extension] [url]</b>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> wget -O filename.html googl.com
+<br /><br />
 Install VS-Code Extensions for the docker image:- <br />
 &nbsp;&nbsp;&nbsp; => Hit: <b>Ctrl+Shift+P</b> ; to open command pallete <br />
 &nbsp;&nbsp;&nbsp; => Search: <b>Remote: Install Local Extensions</b> ; and select the first option<br />
