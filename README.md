@@ -47,6 +47,8 @@ node --version <br />
 <br />
 when running a .sh file, add this to the top:-  <b>#!/bin/sh</b>
 <br /><br />
+to run commands on startup:-  <b>https://unix.stackexchange.com/a/637875</b>
+<br /><br />
 Install VS-Code Extensions for the docker image:- <br />
 &nbsp;&nbsp;&nbsp; => Hit: <b>Ctrl+Shift+P</b> ; to open command pallete <br />
 &nbsp;&nbsp;&nbsp; => Search: <b>Remote: Install Local Extensions</b> ; and select the first option<br />
