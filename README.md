@@ -54,6 +54,10 @@ how to download files using cli:- <b>wget -O [file name with extension] [url]</b
 <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> wget -O filename.html googl.com
 <br /><br />
+copy files bwtween host and container:- <b>docker cp [souce dir] [containerID]:[docker dir to copy to]</b>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> docker cp '/home/atharvavyas/Downloads/data.csv' 'abc123:/home/'
+<br /><br />
 Install VS-Code Extensions for the docker image:- <br />
 &nbsp;&nbsp;&nbsp; => Hit: <b>Ctrl+Shift+P</b> ; to open command pallete <br />
 &nbsp;&nbsp;&nbsp; => Search: <b>Remote: Install Local Extensions</b> ; and select the first option<br />
