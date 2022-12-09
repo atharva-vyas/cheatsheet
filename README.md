@@ -33,6 +33,7 @@ apt upgrade -y <br />
 <br />
 apt-get install libgtk2.0-dev -y <br />
 apt --fix-broken install <br />
+apt-get install python3-pip python-dev -y <br />
 apt install wget -y <br />
 apt install fish -y <br />
 apt install nano -y <br />
