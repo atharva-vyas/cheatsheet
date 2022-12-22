@@ -67,6 +67,7 @@ Install VS-Code Extensions for the docker image:- <br />
 pyenv virtualenv 3.10.0 myproject <br />
 pyenv activate myproject <br />
 which python <br />
+which pip <br />
 <br />
 pyenv virtualenv-delete <name_of_your_env> <br />
 pyenv versions <br />
