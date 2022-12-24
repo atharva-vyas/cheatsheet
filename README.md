@@ -64,6 +64,7 @@ Install VS-Code Extensions for the docker image:- <br />
 &nbsp;&nbsp;&nbsp; => Select all extensions, and click OK; Then wait for all the extesions to install
 <br /><br />
 <b>Python pyenv Virtual Enviornment:- </b> <br /> 
+pyenv install 3.10.0 <br />
 pyenv virtualenv 3.10.0 myproject <br />
 pyenv activate myproject <br />
 which python <br />
