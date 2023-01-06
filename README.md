@@ -70,6 +70,7 @@ Install VS-Code Extensions for the docker image:- <br />
 conda create --name <name_for_your_env> python=<python_version> <br />
 conda activate <your_env> <br />
 conda info --envs <br />
+conda install <package_name> (like tensorflow, requests, etc.) <br />
 conda deactivate <br />
 conda env remove -n <your_environment_name>
 <br /><br />
