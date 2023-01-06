@@ -62,6 +62,8 @@ Install VS-Code Extensions for the docker image:- <br />
 &nbsp;&nbsp;&nbsp; => Hit: <b>Ctrl+Shift+P</b> ; to open command pallete <br />
 &nbsp;&nbsp;&nbsp; => Search: <b>Remote: Install Local Extensions</b> ; and select the first option<br />
 &nbsp;&nbsp;&nbsp; => Select all extensions, and click OK; Then wait for all the extesions to install
+<br /><br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><=============miscellaneous=============></b>
 <br /><br />
 <b>Python conda:- </b> <br /> 
 conda create --name <name_for_your_env> python=<python_version> <br />
