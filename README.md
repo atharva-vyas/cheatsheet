@@ -86,4 +86,7 @@ pyenv virtualenv-delete <name_of_your_env> <br />
 pyenv versions
 <br /><br />
 <b>Adds "open terminal here" to nautilus:- </b> <br /> 
-https://askubuntu.com/a/1206655
+https://askubuntu.com/a/1206655<br />
+Just use:<br />
+```sudo apt-get install nautilus-extension-gnome-terminal```<br />
+and Logout/Login or reboot.
