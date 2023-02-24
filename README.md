@@ -85,8 +85,9 @@ which pip <br />
 pyenv virtualenv-delete <name_of_your_env> <br />
 pyenv versions
 <br /><br />
-<b>Adds "open terminal here" to nautilus:- </b> <br /> 
-https://askubuntu.com/a/1206655<br />
+<b>Adds "open tilix here" to nautilus:- </b> <br /> 
+https://github.com/gnunn1/tilix/issues/1529#issuecomment-626020256<br />
 Just use:<br />
-```sudo apt-get install nautilus-extension-gnome-terminal```<br />
-and Logout/Login or reboot.
+```sudo apt install python3-nautilus```<br />
+```killall nautilus```<br />
+and reopen nautilus, then right click to see the option.
