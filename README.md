@@ -83,7 +83,7 @@ which python <br />
 which pip <br />
 <br />
 pyenv virtualenv-delete <name_of_your_env> <br />
-pyenv versions <br />
+pyenv versions
 <br /><br />
 <b>Adds "open terminal here" to nautilus:- </b> <br /> 
 https://askubuntu.com/a/1206655
