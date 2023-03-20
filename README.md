@@ -91,3 +91,4 @@ Just use:<br />
 ```sudo apt install python3-nautilus```<br />
 ```killall nautilus```<br />
 and reopen nautilus, then right click to see the option.
+<br /><br />https://dev.to/akhileshthite/how-to-keep-ec2-instance-running-after-ssh-is-terminated-45k8
