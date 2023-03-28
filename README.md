@@ -73,7 +73,14 @@ conda info --envs <br />
 conda install <package_name> (like tensorflow, requests, etc.) <br />
 conda remove <package_name> <br />
 conda deactivate <br />
-conda env remove -n <your_environment_name>
+conda env remove -n <your_environment_name><br /> 
+<b>conda after install: (execute commands in bash)</b><br /> 
+&nbsp;&nbsp;&nbsp;https://stackoverflow.com/a/64815977<br /> 
+&nbsp;&nbsp;&nbsp;source ~/anaconda3/etc/profile.d/conda.sh<br /> 
+&nbsp;&nbsp;&nbsp;https://stackoverflow.com/a/58760411<br /> 
+&nbsp;&nbsp;&nbsp;conda init fish<br /> 
+&nbsp;&nbsp;&nbsp;https://stackoverflow.com/a/54560785<br /> 
+&nbsp;&nbsp;&nbsp;conda config --set auto_activate_base false<br /> 
 <br /><br />
 <b>Python pyenv Virtual Enviornment:- </b> <br /> 
 pyenv install 3.10.0 <br />
