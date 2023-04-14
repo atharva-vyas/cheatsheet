@@ -46,6 +46,10 @@ npx n stable <br />
 hash -r <br />
 node --version <br />
 <br />
+<b>Make Fish Default</b><br />
+To make fish default shell, first run:-  ```which fish``` <br />
+Then take the output of the command above and type this:-  ```chsh -s <command_from_the_step_above>``` <br />
+<br />
 when running a .sh file, add this to the top:-  <b>#!/bin/sh</b>
 <br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><=============miscellaneous=============></b><br />
