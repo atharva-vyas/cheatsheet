@@ -54,6 +54,10 @@ when running a .sh file, add this to the top:-  <b>#!/bin/sh</b>
 <br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><=============miscellaneous=============></b><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><=============miscellaneous=============></b>
+<br /><br /><br />
+Prevent SSH session from freezing:-  <b>https://unix.stackexchange.com/a/200256</b><br />
+Increase nginx file upload size:-  <b>https://stackoverflow.com/a/26717238</b><br />
+Open port OCI instance:-  <b>https://stackoverflow.com/a/54810101</b>
 <br /><br />
 to run commands on startup:-  <b>https://unix.stackexchange.com/a/637875</b>
 <br /><br />
