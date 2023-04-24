@@ -107,3 +107,5 @@ Just use:<br />
 ```killall nautilus```<br />
 and reopen nautilus, then right click to see the option.
 <br /><br />https://dev.to/akhileshthite/how-to-keep-ec2-instance-running-after-ssh-is-terminated-45k8
+<br /><br /><b>Test API GET and POST requests:-<b/>
+<br />https://httpbin.org/get
