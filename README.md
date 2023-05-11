@@ -28,7 +28,8 @@ docker images <br/>
 docker image rm --force <docker_commit_image_id> <br/>
 <br /> 
 <b>Add GUI to your docker container:- </b><br />
-docker run -t -d --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" --name test debian<br /> 
+```xhost +```<br />
+```docker run -t -d --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" --name test debian```<br /> 
 <br /> 
 <b>AFTER INSTALL:- </b><br />
 apt update -y <br />
