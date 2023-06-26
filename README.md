@@ -38,17 +38,9 @@ apt upgrade -y <br />
 apt-get install libgtk2.0-dev -y <br />
 apt --fix-broken install <br />
 apt-get install python3-pip python-dev -y <br />
-apt install wget -y <br />
-apt install fish -y <br />
-apt install nano -y <br />
+```apt install wget -y && apt install fish -y && apt install nano -y```
 <br />
-apt install nodejs -y <br />
-apt install npm -y <br />
-npm cache clean -f <br />
-npm install -g n <br />
-npx n stable <br />
-hash -r <br />
-node --version <br />
+```apt install nodejs -y && apt install npm -y && npm cache clean -f && npm install -g n && npx n stable && hash -r && node --version &&``` <br />
 <br />
 <b>Make Fish Default</b><br />
 To make fish default shell, first run:-  ```which fish``` <br />
