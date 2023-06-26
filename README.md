@@ -32,13 +32,12 @@ docker image rm --force <docker_commit_image_id> <br/>
 ```docker run -t -d --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" --name test debian```<br /> 
 <br /> 
 <b>AFTER INSTALL:- </b><br />
-apt update -y <br />
-apt upgrade -y <br /> 
+```apt upgrade -y && apt update -y && apt --fix-broken install && apt autoremove -y```<br /> 
 <br />
 apt-get install libgtk2.0-dev -y <br />
 apt --fix-broken install <br />
 apt-get install python3-pip python-dev -y <br />
-```apt install wget -y && apt install fish -y && apt install nano -y```
+```apt install wget -y && apt install fish -y && apt install nano -y```<br /> 
 <br />
 ```apt install nodejs -y && apt install npm -y && npm cache clean -f && npm install -g n && npx n stable && hash -r && node --version &&``` <br />
 <br />
