@@ -47,6 +47,29 @@ Then take the output of the command above and type this:-  ```chsh -s <command_f
 <br />
 when running a .sh file, add this to the top:-  <b>#!/bin/sh</b>
 <br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><=============TMUX=============></b><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><=============TMUX=============></b>
+<br /><br /><br />
+navigate around all windows & sessions -- ctrl+B, W<br />
+delete a window from the navigation -- ctrl+B, X<br /><br />
+new window -- ctrl+B, C<br />
+change window -- ctrl+B, N<br />
+change window name -- ctrl+B, ,<br />
+delete a window -- ctrl+B, &<br /><br />
+detach -- ctrl+B, D<br />
+split vertically(hotdog) -- ctrl+B, %<br />
+split vertically(hamburger) -- ctrl+B, "<br /><br />
+move around -- ctrl+B, ↑ ↓ → ←<br />
+move around -- ctrl+B, Q<br />
+move around -- ctrl+B, NUMBER<br />
+change size of panel -- ctrl+B, ctrl+↑ ↓ → ←<br />
+pre-selected layouts -- ctrl+B, alt+NUMBER<br />
+delete a panel -- ctrl+B, X<br /><br />
+list all sessions -- tmux ls<br /><br />
+start session -- tmux new -s nameHere<br />
+start session & window -- tmux new -t nameHere<br /><br />
+kill session -- tmux kill-session -t nameHere<br />
+<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><=============miscellaneous=============></b><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><=============miscellaneous=============></b>
 <br /><br /><br />
