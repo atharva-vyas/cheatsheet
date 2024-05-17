@@ -46,10 +46,10 @@ To make fish default shell, first run:-  ```which fish``` <br />
 Then take the output of the command above and type this:-  ```chsh -s <command_from_the_step_above>``` <br />
 <br />
 when running a .sh file, add this to the top:-  <b>#!/bin/sh</b>
-<br /><br />
+<br /><br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><=============TMUX=============></b><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><=============TMUX=============></b>
-<br /><br /><br />
+<br /><br />
 navigate around all windows & sessions -- ctrl+B, W<br />
 delete a window from the navigation -- ctrl+B, X<br /><br />
 new window -- ctrl+B, C<br />
