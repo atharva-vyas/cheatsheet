@@ -50,6 +50,7 @@ when running a .sh file, add this to the top:-  <b>#!/bin/sh</b>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><=============TMUX=============></b><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><=============TMUX=============></b>
 <br /><br />
+tmux attach -t 0 <br />
 navigate around all windows & sessions -- ctrl+B, W<br />
 delete a window from the navigation -- ctrl+B, X<br /><br />
 new window -- ctrl+B, C<br />
