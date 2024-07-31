@@ -4,7 +4,7 @@ mkdir cheatsheet-old
 cd cheatsheet-old
 git clone https://github.com/atharva-vyas/cheatsheet
 cd ..
-# rm -rf ./cheatsheet-old/cheatsheet/*
+rm -rf ./cheatsheet-old/cheatsheet/*
 rm -rf ./cheatsheet-old/cheatsheet/cheatsheet-old
 cp -r ./* ./cheatsheet-old/cheatsheet
 cd cheatsheet-old/cheatsheet
