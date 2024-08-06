@@ -65,6 +65,7 @@ When running a .sh file, add this to the top: `#!/bin/sh`
 tmux attach -t 0
 ```
 - Navigate around all windows & sessions -- `ctrl+B, W`
+- Overview of all windows & sessions -- `ctrl+B, S`
 - Delete a window from the navigation -- `ctrl+B, X`
 - New window -- `ctrl+B, C`
 - Change window -- `ctrl+B, N`
