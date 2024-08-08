@@ -48,7 +48,7 @@ apt update -y && apt upgrade -y && apt --fix-broken install && apt autoremove -y
 apt-get install libgtk2.0-dev -y
 apt --fix-broken install
 apt-get install python3-pip python-dev -y
-apt install wget -y && apt install fish -y && apt install nano -y && apt install curl -y
+apt install wget -y && apt install fish -y && apt install nano -y && apt install curl -y && apt install vim -y
 
 apt install nodejs -y && apt install npm -y && npm cache clean -f && npm install -g n && npx n stable && hash -r && node --version
 ```
